@@ -1,0 +1,14 @@
+.active {
+    color: red;
+}
+
+.baslik{
+    color:rgba(86, 108, 86, 0.933);
+    background-color: rgba(224, 243, 224, 0.933);
+    text-transform: uppercase;
+    text-shadow: 2px 3px 3px blue;
+    font-weight: bolder;
+    font-size: 1.7rem;
+    letter-spacing: 3px;
+    word-spacing: 15px;
+}
