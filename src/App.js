@@ -5,7 +5,7 @@ import NotFound from "./pages/NotFound"
 import Nav from "./components/Nav"
 import Footer from "./components/Footer"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import "../src/scss/app.scss"
+import "./App.scss"
 
 function App() {
   return (
