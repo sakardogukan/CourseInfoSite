@@ -1,0 +1,44 @@
+@import "../scss/_variables.scss";
+
+.divLink {
+    background-color: $navFtrBgColor;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 150px;
+    padding: 0.8rem;
+    align-items: center;
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+
+.liLink {
+    display: flex;
+    color: red;
+    gap: 150px;
+    font-size: 1.3rem;
+    list-style-type: none;
+    text-align: center;
+
+    & a {
+        text-decoration: none;
+    }
+    & li {
+        width: 140px;
+    }
+    & li:hover {
+        background-color: rgb(225, 219, 199);
+        border-radius: 50px;
+    }
+}
+
+.baslik{
+    color:rgba(86, 108, 86, 0.933);
+    text-transform: uppercase;
+    text-shadow: 2px 3px 3px blue;
+    font-weight: bolder;
+    font-size: 1.7rem;
+    letter-spacing: 3px;
+    word-spacing: 15px;
+    text-align: center;
+}
