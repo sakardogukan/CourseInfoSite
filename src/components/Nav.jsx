@@ -1,11 +1,13 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
-import NavStyle from "./NavStyle.module.css"
+import NavStyle from "./NavStyle.module.scss"
 
 const Nav = () => {
   return (
     <div className={NavStyle.divLink}>
-      <p className="text-center baslik">Course Information Site</p>
+      <p className={NavStyle.baslik}>
+        Course Information Site
+      </p>
       <ul className={NavStyle.liLink}>
         <li>
           {/* <Link to="/">Home</Link> */}
