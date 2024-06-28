@@ -4,9 +4,9 @@
     background-color: $navFtrBgColor;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     gap: 150px;
     padding: 0.8rem;
-    align-items: center;
     position: sticky;
     width: 100%;
     top: 0;
@@ -32,8 +32,8 @@
     }
 }
 
-.baslik{
-    color:rgba(86, 108, 86, 0.933);
+.baslik {
+    color: rgba(86, 108, 86, 0.933);
     text-transform: uppercase;
     text-shadow: 2px 3px 3px blue;
     font-weight: bolder;
