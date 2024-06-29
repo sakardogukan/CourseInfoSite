@@ -5,6 +5,7 @@ import NotFound from "./pages/NotFound"
 import Nav from "./components/Nav"
 import Footer from "./components/Footer"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import InstructorDetail from "./pages/InstructorDetail"
 import "./App.scss"
 import "./scss/_reset.scss"
 
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/instructors" element={<Instructors />} />
+          <Route path="/instructors/:id" element={<InstructorDetail />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
