@@ -23,9 +23,9 @@ function Nav({ user }) {
             className={`navbar-nav ms-auto mb-2 me-3 mb-lg-0 ${NavStyle.liLink}`}
           >
             <li className="nav-item">
-              {/* <Link to="/">Home</Link> */}
+              {/* <Link to="/CourseInfoSite">Home</Link> */}
               <NavLink
-                to="/"
+                to="/CourseInfoSite"
                 className="nav-link active"
                 aria-current="page"
                 style={({ isActive }) => ({ color: isActive && "red" })}
@@ -71,7 +71,7 @@ function Nav({ user }) {
               <li className="nav-item">
                 <NavLink
                   className="nav-link active"
-                  to="#"
+                  to="/CourseInfoSite"
                   aria-current="page"
                   style={({ isActive }) => ({ color: isActive && "red" })}
                   onClick={(e) => {
