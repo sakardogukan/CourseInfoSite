@@ -27,7 +27,7 @@ const AppRouter = () => {
       <div className="content">
         <Routes>
           {/* <Route path="/" element={<Home />} /> */}
-          <Route path="/" element={<Home />}>
+          <Route path="/CourseInfoSite" element={<Home />}>
             {/* <Route path="/about" element={<About />} /> */}
             {/* <Route path="" element={<About />} /> */}
             <Route index element={<About />} />
