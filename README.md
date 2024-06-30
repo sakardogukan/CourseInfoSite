@@ -22,7 +22,7 @@ Notes For Deployment:
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
 - in terminal  -> npm i
-- in terminal -> yarn run build
+- in terminal -> yarn run deploy
 -----
 
 ### Project Skeleton:
