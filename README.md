@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+## Course Information Website Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+This project was designed with React. Methods such as dynamic root protection with the login page were used. Fetch API and Axios structure are used in UseEffect Hook.
 
-## Available Scripts
+## Objective
+At the end of the project, following topics are to be covered;
+* HTML
+* CSS / SASS / SCSS
+* JavaScript
+* React
+* React-Bootstrap / Bootstrap
+* React-Deployment
+* Routing / React Router Dom
 
-In the project directory, you can run:
+------
 
-### `yarn start`
+Notes For Deployment:
+- Packega.json -> "homepage": "https://sakardogukan.github.io/CourseInfoSite",
+- in terminal   -> yarn add gh-pages
+- Packega.json -> "scripts" ->
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
+- in terminal  -> npm i
+- in terminal -> yarn run build
+-----
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Project Skeleton:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+    CourseInfoSite (folder)
+    |
+    |---- public
+    |       |---- index.html
+    |---- src
+    |       |---- compenents
+    |       |       |---- About.jsx
+    |       |       |---- Courses.jsx
+    |       |       |---- Footer.jsx
+    |       |       |---- FooterStyle.module.scss
+    |       |       |---- Nav.jsx
+    |       |       |---- NavStyle.module.scss
+    |       |---- img
+    |       |       |---- 404.png
+    |       |       |---- Spinner-2.gif
+    |       |---- pages
+    |       |       |---- Aws.jsx
+    |       |       |---- Contact.jsx
+    |       |       |---- Fullstack.jsx
+    |       |       |---- Home.jsx
+    |       |       |---- InstructorDetail.jsx
+    |       |       |---- Instructors.jsx
+    |       |       |---- Login.jsx
+    |       |       |---- Login2.jsx
+    |       |       |---- Next.jsx
+    |       |       |---- NotFound.jsx
+    |       |       |---- Path.jsx
+    |       |       |---- React.jsx
+    |       |---- Router
+    |       |       |---- AppRouter.jsx
+    |       |       |---- PrivateRouter.jsx
+    |       |---- scss
+    |       |       |---- _reset.scss
+    |       |       |---- _variables.scss
+    |       |---- App.js
+    |       |---- App.scss
+    |       |---- data.js                                   
+    |       |---- index.js                                   
+    |       |---- project_view.gif
+    |---- .gitignore
+    |---- package-lock.json
+    |---- package.json
+    |---- README.md
+    |---- yarn.lock
+```
 
-### `yarn test`
+### Project View Images:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="./src/project_view.gif" style="width:80%">
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Designed By DOGUKAN © Apr. 2024
