@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/CourseInfoSite/static/css/main.97516936.css",
-    "main.js": "/CourseInfoSite/static/js/main.2e9fec84.js",
+    "main.js": "/CourseInfoSite/static/js/main.287c4905.js",
     "static/media/Spinner-2.gif": "/CourseInfoSite/static/media/Spinner-2.0c2993480d0ca8008754.gif",
     "index.html": "/CourseInfoSite/index.html",
     "main.97516936.css.map": "/CourseInfoSite/static/css/main.97516936.css.map",
-    "main.2e9fec84.js.map": "/CourseInfoSite/static/js/main.2e9fec84.js.map"
+    "main.287c4905.js.map": "/CourseInfoSite/static/js/main.287c4905.js.map"
   },
   "entrypoints": [
     "static/css/main.97516936.css",
-    "static/js/main.2e9fec84.js"
+    "static/js/main.287c4905.js"
   ]
 }
