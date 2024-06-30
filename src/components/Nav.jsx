@@ -7,7 +7,7 @@ function Nav({ user }) {
   return (
     <nav className="navbar navbar-expand-md navbar-light">
       <div className={`container-fluid ${NavStyle.divLink}`}>
-        <Link to="/" className="navbar-brand">
+        <Link to="/CourseInfoSite" className="navbar-brand">
           <div className={NavStyle.baslik}>Course Information Site</div>
         </Link>
         <button
