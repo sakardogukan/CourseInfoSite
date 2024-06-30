@@ -11,7 +11,7 @@ const Login = ({setUser}) => {
     e.preventDefault()
     setUser({email,password})
     localStorage.setItem("user",JSON.stringify({email,password}))
-    navigate("/")
+    navigate("/CourseInfoSite")
     console.log(email, password);
 
   }
