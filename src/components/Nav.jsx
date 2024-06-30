@@ -1,8 +1,9 @@
 import { Link, NavLink } from "react-router-dom"
 import NavStyle from "./NavStyle.module.scss"
 import "../App.scss"
+// import { useState } from "react"
 
-function Nav() {
+function Nav({ user }) {
   return (
     <nav className="navbar navbar-expand-md navbar-light">
       <div className={`container-fluid ${NavStyle.divLink}`}>
@@ -66,6 +67,34 @@ function Nav() {
                 Contact
               </NavLink>
             </li>
+            {user ? (
+              <li className="nav-item">
+                <NavLink
+                  className="nav-link active"
+                  to="#"
+                  aria-current="page"
+                  style={({ isActive }) => ({ color: isActive && "red" })}
+                  onClick={(e) => {
+                    localStorage.clear("user")
+                    window.location.reload()
+                    e.preventDefault()
+                  }}
+                >
+                  Logout
+                </NavLink>
+              </li>
+            ) : (
+              <li className="nav-item">
+                <NavLink
+                  className="nav-link active"
+                  to="/login"
+                  aria-current="page"
+                  style={({ isActive }) => ({ color: isActive && "red" })}
+                >
+                  Login
+                </NavLink>
+              </li>
+            )}
           </ul>
         </div>
       </div>
