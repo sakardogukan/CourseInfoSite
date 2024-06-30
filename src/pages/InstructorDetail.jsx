@@ -62,7 +62,7 @@ const InstructorDetail = () => {
         <p>{personel?.email}</p>
         <div>
           <button
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/CourseInfoSite")}
             className="btn btn-success me-2"
           >
             Go Home
