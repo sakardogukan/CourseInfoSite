@@ -28,15 +28,15 @@ const AppRouter = () => {
         <Routes>
           {/* <Route path="/" element={<Home />} /> */}
           <Route path="/CourseInfoSite" element={<Home />}>
-            {/* <Route path="/about" element={<About />} /> */}
+            <Route path="about" element={<About />} />
             {/* <Route path="" element={<About />} /> */}
-            <Route index element={<About />} />
+            {/* <Route index element={<About />} /> */}
             <Route path="courses" element={<Courses />} />
           </Route>
           <Route path="/paths" element={<Path />}>
             <Route path="fullstack" element={<Fullstack />}>
               <Route path="react" element={<React />} />
-              <Route index element={<React />} />
+              {/* <Route index element={<React />} /> */}
               <Route path="next" element={<Next />} />
             </Route>
             <Route path="aws" element={<Aws />} />
