@@ -29,6 +29,7 @@ const Login = ({setUser}) => {
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
             onChange={(e) => setEmail(e.target.value)}
+            required
           />
         </div>
         <div className="mb-3">
