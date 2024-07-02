@@ -68,17 +68,19 @@ function Nav({ user }) {
               </NavLink>
             </li>
             {user ? (
-              <li className="nav-item">
+              <li
+                className="nav-item"
+                onClick={(e) => {
+                  localStorage.clear("user")
+                  window.location.reload()
+                  e.preventDefault()
+                }}
+              >
                 <NavLink
                   className="nav-link active"
                   to="/CourseInfoSite"
                   aria-current="page"
                   style={({ isActive }) => ({ color: isActive && "red" })}
-                  onClick={(e) => {
-                    localStorage.clear("user")
-                    window.location.reload()
-                    e.preventDefault()
-                  }}
                 >
                   Logout
                 </NavLink>
